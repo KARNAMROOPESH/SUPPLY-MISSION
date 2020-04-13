@@ -22,7 +22,7 @@ function setup() {
 	packageSprite.addImage(packageIMG)
 	packageSprite.scale=0.2
 
-	helicopterSprite=createSprite(2, 200, 10,10);
+	helicopterSprite=createSprite(width/2, 200, 10,10);
 	helicopterSprite.addImage(helicopterIMG)
 	helicopterSprite.scale=0.6
 
